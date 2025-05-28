@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla ISR</title>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<main>
+    <div>
+        <section class="main-section nav-bar impuestos-container">
+            <div class="impuesto-header">
+                <h1 class="impuesto-titulo">Calculo de impuestos mensual</h1>
+                <select class="impuesto-select">
+                    <option value="0">Seleccionar mes</option>
+                </select>
+            </div>
+            <article class="impuesto-article">
+                <div class="container">
+                    <h2>I.S.R.</h2>
+                    <div class="table-wrapper">
+                        <table class="impuesto-table">
+                            <tr>
+                                <th>Concepto</th>
+                                <th>Importe</th>
+                            </tr>
+                            <tr>
+                                <td>Ingresos del mes anterior</td>
+                                <td>1,091,042.05</td>
+                            </tr>
+                            <tr>
+                                <td>Ingresos cobrados</td>
+                                <td>105,896.45</td>
+                            </tr>
+                            <tr class="total">
+                                <td>Total de periodo</td>
+                                <td>1,196,938.50</td>
+                            </tr>
+                            <tr>
+                                <td>Deducciones del mes anterior</td>
+                                <td>995,946.98</td>
+                            </tr>
+                            <tr>
+                                <td>Deducciones autorizadas pagadas</td>
+                                <td>137,781.14</td>
+                            </tr>
+                            <tr>
+                                <td>Gastos Nómina</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr>
+                                <td>Depreciación</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr class="total">
+                                <td>Total de periodo</td>
+                                <td>1,133,728.00</td>
+                            </tr>
+                            <tr class="total">
+                                <td>Base para el pago provisional</td>
+                                <td>63,210.37</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <div class="table-wrapper">
+                        <table class="impuesto-table">
+                            <tr>
+                                <td>(-) Límite inferior</td>
+                                <td>1,091,042.05</td>
+                            </tr>
+                            <tr>
+                                <td>(=) Excedente del limite inferior</td>
+                                <td>105,896.45</td>
+                            </tr>
+                            <tr>
+                                <td>(x) % sobre exedente del límite inferior</td>
+                                <td>1,196,938.50</td>
+                            </tr>
+                            <tr>
+                                <td>(=) Impuesto marginal</td>
+                                <td>995,946.98</td>
+                            </tr>
+                            <tr>
+                                <td>(+) Cuota fija</td>
+                                <td>137,781.14</td>
+                            </tr>
+                            <tr>
+                                <td>(=) impuesto</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr>
+                                <td>(-) Reducccion de 30% (Art. 83 RLISR)</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr>
+                                <td>(=) Impuesto reducido</td>
+                                <td>1,133,728.00</td>
+                            </tr>
+                            <tr>
+                                <td>(-) Pagos provisionales efectuados con anterioridad</td>
+                                <td>995,946.98</td>
+                            </tr>
+                            <tr>
+                                <td>(-) 10% de retención meses anteriores</td>
+                                <td>137,781.14</td>
+                            </tr>
+                            <tr>
+                                <td>(-) 10 % I.S.R. Retenido del Mes</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr class="calculo-total">
+                                <td>(=) Impuesto a cargo del mes</td>
+                                <td>0.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </article>
+            <article class="impuesto-article">
+                <div class="container">
+                    <h2>I.V.A.</h2>
+                    <div class="table-wrapper">
+                        <table class="impuesto-table">
+                            <tr>
+                                <th>Concepto</th>
+                                <th>Importe</th>
+                            </tr>
+                            <tr>
+                                <td>Base del impuesto</td>
+                                <td>1,091,042.05</td>
+                            </tr>
+                            <tr>
+                                <td>I.V.A. Cobrado</td>
+                                <td>105,896.45</td>
+                            </tr>
+                            <tr>
+                                <td>(-) Retenciones</td>
+                                <td>1,196,938.50</td>
+                            </tr>
+                            <tr>
+                                <td>(-) I.V.A. Acreditable</td>
+                                <td>995,946.98</td>
+                            </tr>
+                            <tr>
+                                <td>(=) I.V.A. a cargo o a favor del periodo</td>
+                                <td>137,781.14</td>
+                            </tr>
+                            <tr>
+                                <td>(-) Saldo a favor pendiente de acreditar</td>
+                                <td>0.00</td>
+                            </tr>
+                            <tr class="calculo-total">
+                                <td>(=) Impuesto a cargo (+) ó a favor (-)</td>
+                                <td>0.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="container impuesto-salarios">
+                    <h2>I.S.R. Salarios</h2>
+                    <div class="table-wrapper">
+                        <table class="impuesto-table">
+                            <tr>
+                                <th>Concepto</th>
+                                <th>Importe</th>
+                            </tr>
+                            <tr>
+                                <td>I.S.R. Salarios</td>
+                                <td>1,091,042.05</td>
+                            </tr>
+                            <tr>
+                                <td>(-) Subsidio</td>
+                                <td>1,440,393</td>
+                            </tr>
+                            <tr>
+                                <td>(-) Subsidio periodos anteriores</td>
+                                <td>1,196,938.50</td>
+                            </tr>
+                            <tr class="calculo-total">
+                                <td>(=) ISR Salario. mensual por pagar</td>
+                                <td>0.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="container impuesto-salarios">
+                    <p class="total-etiqueta">Total: <span class="total-valor">1,234,234</span></p>
+                </div>
+            </article>
+        </section>
+    </div>
+</main>
+</body>
+</html>
